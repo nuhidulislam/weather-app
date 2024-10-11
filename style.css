@@ -95,3 +95,14 @@
   width: 250px;
   height: 250px;
 }
+
+@media screen and (max-width:576px){
+  .search input{
+    width: 70%;
+  }
+  .details{
+    
+    flex-direction: column;
+    gap: 30px;
+  }
+}
